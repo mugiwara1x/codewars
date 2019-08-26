@@ -1,0 +1,21 @@
+You are given array of integers, your task will be to count all pairs in that array and return their count.
+
+E.g.: for [0, 0, 0, 0] the return value is 2 (= 2 pairs of 0s)
+
+
+function duplicates(array){
+let count =0;
+  
+  for(i=0;i<array.length;i++){
+    for(j=0;j<array.length;j++){
+ if(array[i]===array[j]){
+     
+      count ++
+    }
+   
+    }
+  }return count;
+  
+}
+
+let arry = [1,2,3]
